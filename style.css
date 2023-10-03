@@ -34,37 +34,56 @@ header .links a {
     margin: 0px 5px;
 }
 
-.container {
+header .links a:hover {
+    
+}
+
+.first-container {
     height: 600px;
     width: 100%;
     background-color: rgba(89, 110, 121, 1);
+    /* background-image: linear-gradient(rgba(89, 110, 121, 1), rgba(246, 240, 237, 1)); */
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
 
-.container .image {
+.first-container .image {
     margin: 0 auto;
 }
 
-.container img {
+.first-container img {
     border-radius: 50%;
     padding-left: 20px;
     /* filter: drop-shadow(15px 0px 2px rgba(240, 236, 226, 1)); */
 }
 
-.container .text {
+.first-container .text {
     color: white;
     padding-left: 20px;
 }
 
-.container p {
+.first-container p {
     font-size: 30px;
     font-weight: 500;
 }
 
-.container h2 {
+.first-container h2 {
     font-size: 50px;
     font-weight: 800;
+}
+
+.second-container {
+    height: 600px;
+    width: 100%;
+    background-color: rgba(194, 148, 138, 1);
+}
+
+.second-container h3 {
+    color: white;
+    text-align: left;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 700;
 }
 
