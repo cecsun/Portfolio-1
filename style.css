@@ -74,18 +74,33 @@ header .links a:hover {
     font-weight: 800;
 }
 
-/* ------------------------------ */
+/* ------------------------------- */
 
 .second-container {
     height: 800px;
     width: 100%;
+    /* background-color: rgba(194, 148, 138, 1); */
+    background-color: rgba(187, 177, 147, 1);
+}
+
+
+
+
+
+
+
+/* ------------------------------ */
+
+.third-container {
+    height: 1000px;
+    width: 100%;
     background-color: rgba(194, 148, 138, 1);
 }
 
-.second-container h3 {
+.third-container h3 {
     color: white;
     font-family: 'Playfair Display', serif;
-    text-align: left;
+    text-align: center;
     padding: 20px;
     font-size: 40px;
     font-weight: 600;
@@ -98,11 +113,11 @@ header .links a:hover {
 }
 
 .card {
-    padding: 10px;
+    /* padding: 10px; */
     margin: 0px 30px;
-    width: 450px;
+    width: 480px;
     border-radius: 5px;
-    background-image: linear-gradient(rgba(194, 148, 138, 1) 50%, rgba(246, 240, 237, 1) 50%);
+    background-image: linear-gradient(rgba(194, 148, 138, 1) 30%, rgba(246, 240, 237, 1) 30%);
     border-style: solid;
     border-color: rgba(246, 240, 237, 1);
     border-width: 2px;
@@ -130,6 +145,20 @@ header .links a:hover {
     font-size: 18px;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
+    /* margin-bottom: 10px; */
+    padding: 20px 40px;
+}
+
+.card-container a {
+    font-size: 30px;
+    padding: 10px 5px;
+}
+
+.card img {
+    margin: 20px 0px;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0px;
 }
 
 
