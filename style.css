@@ -85,13 +85,6 @@ header .links a:hover {
 
 
 
-
-
-
-
-
-
-
 /* ----------------------------------- */
 
 .third-container {
@@ -100,7 +93,30 @@ header .links a:hover {
     background-color: rgba(246, 240, 237, 1);
 }
 
+.third-container h4 {
+    color: black;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
 
+.stack-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(126, 168, 190, 1);
+    width: 1200px;
+    margin: auto;
+}
+
+.stack-container img {
+    width: 150px;
+    margin: auto;
+}
 
 
 
