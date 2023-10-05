@@ -80,8 +80,27 @@ header .links a:hover {
     height: 800px;
     width: 100%;
     background-color: rgba(187, 177, 147, 1);
+    display: grid;
 }
 
+.second-container h3 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.second-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-image {
+    margin: auto;
+}
 
 
 
@@ -108,7 +127,8 @@ header .links a:hover {
     justify-content: center;
     padding: 10px;
     border-radius: 50px;
-    background-color: rgba(126, 168, 190, 1);
+    background-color: rgba(231, 231, 231, 1);
+    box-shadow: 5px 5px 10px grey;
     width: 1200px;
     margin: auto;
 }
