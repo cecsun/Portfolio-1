@@ -93,14 +93,7 @@ header .links a:hover {
     margin-bottom: 40px;
 }
 
-.second-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
-.about-image {
-    margin: auto;
-}
 
 
 
