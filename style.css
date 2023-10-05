@@ -79,7 +79,6 @@ header .links a:hover {
 .second-container {
     height: 800px;
     width: 100%;
-    /* background-color: rgba(194, 148, 138, 1); */
     background-color: rgba(187, 177, 147, 1);
 }
 
@@ -89,18 +88,40 @@ header .links a:hover {
 
 
 
-/* ------------------------------ */
+
+
+
+
+/* ----------------------------------- */
 
 .third-container {
-    height: 1000px;
+    height: 400px;
+    width: 100%;
+    background-color: rgba(246, 240, 237, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------- */
+
+.fourth-container {
+    height: 1200px;
     width: 100%;
     background-color: rgba(194, 148, 138, 1);
 }
 
-.third-container h3 {
+.fourth-container h5 {
     color: white;
     font-family: 'Playfair Display', serif;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     font-size: 40px;
     font-weight: 600;
@@ -117,7 +138,7 @@ header .links a:hover {
     margin: 0px 30px;
     width: 480px;
     border-radius: 5px;
-    background-image: linear-gradient(rgba(194, 148, 138, 1) 30%, rgba(246, 240, 237, 1) 30%);
+    background-image: linear-gradient(rgba(194, 148, 138, 1) 25%, rgba(246, 240, 237, 1) 25%);
     border-style: solid;
     border-color: rgba(246, 240, 237, 1);
     border-width: 2px;
@@ -125,37 +146,42 @@ header .links a:hover {
 
 .card .logo img {
     border-radius: 50%;
-    padding: 20px;
     display: flex;
     margin: 0 auto;
+    padding: 20px 0px;
 }
 
 .card-container {
     text-align: center;
+    height: 324px;
+    width: 476px;
 }
 
-.card-container h4 {
+.card-container h6 {
     font-size: 25px;
     font-family: 'Playfair Display', serif;
     font-weight: 600;
-    margin-bottom: 10px;
 }
 
 .card-container p {
     font-size: 18px;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-    /* margin-bottom: 10px; */
-    padding: 20px 40px;
+    padding: 20px;
 }
 
-.card-container a {
+.card a {
     font-size: 30px;
-    padding: 10px 5px;
+    text-align: center;
+    color: black;
+    padding: 0px 5px;
+}
+
+.card a:hover {
+    opacity: 0.7;
 }
 
 .card img {
-    margin: 20px 0px;
     display: flex;
     margin: 0 auto;
     padding: 20px 0px;
