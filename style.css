@@ -76,11 +76,16 @@ header .links a:hover {
 
 /* ------------------------------- */
 
-.second-container {
-    height: 800px;
-    width: 100%;
-    background-color: rgba(187, 177, 147, 1);
+
+.info-container {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 600px;
+}
+
+.second-container {
+    /* background-color: rgba(187, 177, 147, 1); */
+    background-color: rgba(194, 148, 138, 1);
 }
 
 .second-container h3 {
@@ -88,20 +93,12 @@ header .links a:hover {
     font-family: 'Playfair Display', serif;
     text-align: center;
     padding: 20px;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
     margin-bottom: 40px;
 }
 
-
-
-
-
-/* ----------------------------------- */
-
 .third-container {
-    height: 400px;
-    width: 100%;
     background-color: rgba(246, 240, 237, 1);
 }
 
@@ -110,33 +107,25 @@ header .links a:hover {
     font-family: 'Playfair Display', serif;
     text-align: center;
     padding: 20px;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
     margin-bottom: 40px;
 }
 
 .stack-container {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 20px;
     border-radius: 50px;
-    background-color: rgba(231, 231, 231, 1);
-    box-shadow: 5px 5px 10px grey;
-    width: 1200px;
+    background-color: rgba(225, 225, 225, 1);
+    box-shadow: 3px 3px 10px grey;
+    width: 700px;
     margin: auto;
 }
 
 .stack-container img {
-    width: 150px;
-    margin: auto;
+    width: 90%;
 }
-
-
-
-
-
-
-
 
 
 /* ----------------------------------- */
@@ -150,9 +139,9 @@ header .links a:hover {
 .fourth-container h5 {
     color: white;
     font-family: 'Playfair Display', serif;
-    text-align: left;
-    padding: 20px;
-    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
     font-weight: 600;
 }
 
