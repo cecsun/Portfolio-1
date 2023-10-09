@@ -77,6 +77,135 @@ header .links a {
     height: 100%;
 }
 
+.third-container {
+    background-color: rgba(194, 148, 138, 1);
+}
+
+.third-container h5 {
+    color: white;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 30px;
+    font-weight: 600;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgba(246, 240, 237, 1);
+    border-width: 2px;
+}
+
+.card .logo img {
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+.card-container {
+    text-align: center;
+}
+
+.card-container h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+}
+
+.card-container p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.card a {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding: 0px 5px;
+}
+
+.card img {
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+footer {
+    background-color: rgba(89, 110, 121, 1);
+}
+
+footer p {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 20px 10px;
+}
+
+@media (min-width: 1601px) {
+    .third-container h5 {
+        font-size: 50px;
+    }
+    
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .card {
+        margin: 0px 30px;
+        background-image: linear-gradient(rgba(194, 148, 138, 1) 25%, rgba(246, 240, 237, 1) 25%);
+    }
+    
+    .card-container {
+        height: 340px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1600px) {
+    .cards {
+        grid-template-columns: 1fr 1fr;
+        margin: 0px 50px;
+    }
+    
+    .card {
+        margin: 10px 20px;
+        background-image: linear-gradient(rgba(194, 148, 138, 1) 23%, rgba(246, 240, 237, 1) 23%);
+    }
+    
+    .card .logo img {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 801px) {
+    .third-container h5 {
+        font-size: 50px;
+    }
+
+    .cards {
+        display: grid;
+        padding-bottom: 30px;
+    }
+
+    .card-container h6 {
+        font-size: 25px;
+    }
+
+    .card-container p {
+        font-size: 18px;
+    }
+
+    .card a:hover {
+        opacity: 0.7;
+    }
+
+    .card img {
+        padding: 20px 0px;
+    }
+}
+
 @media (min-width: 701px) {
     header .links {
         padding: 20px 30px;
@@ -130,6 +259,33 @@ header .links a {
     }
 }
 
+@media (max-width: 800px) {
+    .third-container h5 {
+        font-size: 30px;
+    }
+    
+    .cards {
+        padding-bottom: 30px;
+    }
+    
+    .card {
+        margin: 0px 30px 40px 30px;
+        background-image: linear-gradient(rgba(194, 148, 138, 1) 25%, rgba(246, 240, 237, 1) 25%);
+    }
+    
+    .card-container h6 {
+        font-size: 20px;
+    }
+    
+    .card-container p {
+        font-size: 16px;
+    }
+    
+    .card img {
+        padding: 10px 0px;
+    }
+}
+
 @media (max-width: 700px) {
     header .links {
         padding: 20px 10px;
@@ -169,112 +325,3 @@ header .links a {
         padding: 10px;
     }
 }
-
-
-/* ------------------------------------------ */
-
-
-
-@media (min-width: 701px) {
-
-    
-
-}
-
-@media (max-width: 700px) {
-
-    
-
-}
-
-/* ------------------------------- */
-
-
-
-
-/* ----------------------------------- */
-
-/* .third-container {
-    height: 1200px;
-    width: 100%;
-    background-color: rgba(194, 148, 138, 1);
-}
-
-.third-container h5 {
-    color: white;
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    padding: 30px;
-    font-size: 50px;
-    font-weight: 600;
-}
-
-.cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 40px 0px;
-    max-width: 100%;
-}
-
-.card {
-    padding: 10px;
-    margin: 0px 30px;
-    width: 480px;
-    border-radius: 5px;
-    background-image: linear-gradient(rgba(194, 148, 138, 1) 25%, rgba(246, 240, 237, 1) 25%);
-    border-style: solid;
-    border-color: rgba(246, 240, 237, 1);
-    border-width: 2px;
-}
-
-.card .logo img {
-    border-radius: 50%;
-    display: flex;
-    margin: 0 auto;
-    padding: 20px 0px;
-}
-
-.card-container {
-    text-align: center;
-    height: 340px;
-    width: 476px;
-}
-
-.card-container h6 {
-    font-size: 25px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-}
-
-.card-container p {
-    font-size: 18px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    padding: 20px;
-}
-
-.card a {
-    font-size: 30px;
-    text-align: center;
-    color: black;
-    padding: 0px 5px;
-}
-
-.card a:hover {
-    opacity: 0.7;
-}
-
-.card img {
-    display: flex;
-    margin: 0 auto;
-    padding: 20px 0px;
-} */
-
-
-/* @media (max-width: 600px) {
-    .card {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-    }
-} */
