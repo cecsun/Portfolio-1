@@ -38,9 +38,11 @@ header .links a:hover {
     
 }
 
+/* ------------------------------------------ */
+
 .first-container {
-    height: 600px;
-    width: 100%;
+    /* height: 600px; */
+    /* width: 100%; */
     background-color: rgba(89, 110, 121, 1);
     /* background-image: linear-gradient(rgba(89, 110, 121, 1), rgba(246, 240, 237, 1)); */
     display: grid;
@@ -67,7 +69,7 @@ header .links a:hover {
 .first-container p {
     font-size: 25px;
     font-weight: 500;
-    width: 700px;
+    /* width: 700px; */
 }
 
 .first-container h2 {
@@ -78,33 +80,13 @@ header .links a:hover {
 
 /* ------------------------------- */
 
-
-.info-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 600px;
-}
-
 .second-container {
-    /* background-color: rgba(187, 177, 147, 1); */
-    background-color: rgba(194, 148, 138, 1);
-}
-
-.second-container h3 {
-    color: white;
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    padding: 20px;
-    font-size: 50px;
-    font-weight: 600;
-    margin-bottom: 40px;
-}
-
-.third-container {
     background-color: rgba(246, 240, 237, 1);
+    /* width: 100%; */
+    /* height: 500px; */
 }
 
-.third-container h4 {
+.second-container h4 {
     color: black;
     font-family: 'Playfair Display', serif;
     text-align: center;
@@ -115,30 +97,33 @@ header .links a:hover {
 }
 
 .stack-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    display: flex;
     padding: 20px;
     border-radius: 50px;
     background-color: rgba(225, 225, 225, 1);
     box-shadow: 3px 3px 10px grey;
-    width: 700px;
+    /* width: 1200px; */
     margin: auto;
+    /* margin: 0px 200px; */
 }
 
 .stack-container img {
-    width: 90%;
+    width: 100%;
+    height: 100%;
 }
 
 
 /* ----------------------------------- */
 
-.fourth-container {
-    height: 1200px;
-    width: 100%;
+.third-container {
+    /* height: 1200px; */
+    /* width: 100%; */
     background-color: rgba(194, 148, 138, 1);
 }
 
-.fourth-container h5 {
+.third-container h5 {
     color: white;
     font-family: 'Playfair Display', serif;
     text-align: center;
@@ -148,13 +133,13 @@ header .links a:hover {
 }
 
 .cards {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 40px 0px;
 }
 
 .card {
-    /* padding: 10px; */
+    padding: 10px;
     margin: 0px 30px;
     width: 480px;
     border-radius: 5px;
@@ -174,7 +159,7 @@ header .links a:hover {
 .card-container {
     text-align: center;
     height: 324px;
-    width: 476px;
+    /* width: 476px; */
 }
 
 .card-container h6 {
