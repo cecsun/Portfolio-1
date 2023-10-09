@@ -24,89 +24,52 @@ header h1 {
     padding: 20px 10px;
 }
 
-header .links {
-    padding: 20px 30px;
-}
-
 header .links a {
     color: white;
     font-size: 30px;
     margin: 0px 5px;
 }
 
-header .links a:hover {
-    
-}
-
-/* ------------------------------------------ */
-
 .first-container {
-    /* height: 600px; */
-    /* width: 100%; */
     background-color: rgba(89, 110, 121, 1);
-    /* background-image: linear-gradient(rgba(89, 110, 121, 1), rgba(246, 240, 237, 1)); */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
-
-.first-container .image {
-    margin: 0 auto;
 }
 
 .first-container img {
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
-    padding-left: 20px;
-    /* filter: drop-shadow(15px 0px 2px rgba(240, 236, 226, 1)); */
 }
 
 .first-container .text {
     color: white;
     font-family: 'Montserrat', sans-serif;
-    padding-left: 20px;
-}
-
-.first-container p {
-    font-size: 25px;
-    font-weight: 500;
-    /* width: 700px; */
+    margin: 0px 20px;
+    padding-bottom: 20px;
 }
 
 .first-container h2 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 800;
     margin: 10px 0px;
 }
 
-/* ------------------------------- */
-
 .second-container {
     background-color: rgba(246, 240, 237, 1);
-    /* width: 100%; */
-    /* height: 500px; */
 }
 
 .second-container h4 {
     color: black;
     font-family: 'Playfair Display', serif;
     text-align: center;
-    padding: 20px;
-    font-size: 50px;
     font-weight: 600;
-    margin-bottom: 40px;
 }
 
 .stack-container {
-    /* display: grid; */
-    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-    display: flex;
-    padding: 20px;
     border-radius: 50px;
     background-color: rgba(225, 225, 225, 1);
     box-shadow: 3px 3px 10px grey;
-    /* width: 1200px; */
     margin: auto;
-    /* margin: 0px 200px; */
+    margin: 0px 30px;
 }
 
 .stack-container img {
@@ -114,12 +77,126 @@ header .links a:hover {
     height: 100%;
 }
 
+@media (min-width: 701px) {
+    header .links {
+        padding: 20px 30px;
+    }
+
+    header .links a:hover {
+        font-size: 32px;
+    }
+
+    .first-container {
+        height: 600px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .first-container .image {
+        margin: 0 auto;
+    }
+
+    .first-container img {
+        padding: 10px;
+    }
+
+    .first-container .text {
+        margin: 0px 30px;
+    }
+
+    .first-container p {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .first-container h2 {
+        font-size: 50px;
+    }
+
+    .second-container {
+        padding-bottom: 50px;
+    }
+    
+    .second-container h4 {
+        padding: 30px;
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+    
+    .stack-container {
+        display: flex;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    header .links {
+        padding: 20px 10px;
+    }
+
+    .first-container img {
+        padding: 20px;
+    }
+
+    .first-container .text {
+        margin: 0px 20px;
+        padding-bottom: 20px;
+    }
+
+    .first-container p {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .first-container h2 {
+        font-size: 30px;
+    }
+
+    .second-container {
+        padding-bottom: 30px;
+    }
+    
+    .second-container h4 {
+        padding: 20px;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .stack-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 10px;
+    }
+}
+
+
+/* ------------------------------------------ */
+
+
+
+@media (min-width: 701px) {
+
+    
+
+}
+
+@media (max-width: 700px) {
+
+    
+
+}
+
+/* ------------------------------- */
+
+
+
 
 /* ----------------------------------- */
 
-.third-container {
-    /* height: 1200px; */
-    /* width: 100%; */
+/* .third-container {
+    height: 1200px;
+    width: 100%;
     background-color: rgba(194, 148, 138, 1);
 }
 
@@ -136,6 +213,7 @@ header .links a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 40px 0px;
+    max-width: 100%;
 }
 
 .card {
@@ -158,8 +236,8 @@ header .links a:hover {
 
 .card-container {
     text-align: center;
-    height: 324px;
-    /* width: 476px; */
+    height: 340px;
+    width: 476px;
 }
 
 .card-container h6 {
@@ -190,7 +268,7 @@ header .links a:hover {
     display: flex;
     margin: 0 auto;
     padding: 20px 0px;
-}
+} */
 
 
 /* @media (max-width: 600px) {
